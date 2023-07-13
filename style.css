@@ -33,4 +33,23 @@ a:hover {
 #box .box .minibox .minibox1:hover {
   width: 150px;
   height: 150px;
+}
+
+#demo h1 {
+  font-size: 24px;
+  color: white;
+}
+#demo .minibox {
+  width: 220px;
+  height: 120px;
+  background-color: #7d5083;
+  margin: 90px;
+  border-radius: 6px;
+  padding: 5px;
+}
+#demo .minibox:hover .minibox1 {
+  width: 210px;
+  height: 110px;
+  background-color: #3b2626;
+  transition: 5s;
 }/*# sourceMappingURL=style.css.map */
