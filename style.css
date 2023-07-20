@@ -52,4 +52,73 @@ a:hover {
   height: 110px;
   background-color: #3b2626;
   transition: 5s;
+}
+
+#box2 .box .minibox {
+  background-color: #a06848;
+  width: 200px;
+  height: 200px;
+  transition: 2s;
+  padding: 75px;
+  margin: 0 91px;
+}
+#box2 .box .minibox:hover {
+  border-radius: 100px;
+}
+#box2 .box .minibox h1 {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+
+#text {
+  padding: 100px 0;
+  position: relative;
+}
+#text h1 {
+  font-size: 40px;
+  color: white;
+}
+#text .minibox {
+  background-color: #375680;
+  width: 300px;
+  height: 190px;
+  margin: 20px;
+  padding: 75px 100px;
+}
+#text .minibox1 {
+  background-color: #375680;
+  width: 300px;
+  height: 190px;
+  margin: 20px;
+  padding: 75px 100px;
+  position: absolute;
+  top: 940px;
+  right: 972px;
+}
+
+#text2 {
+  padding: 100px 0;
+  position: relative;
+}
+#text2 h1 {
+  font-size: 40px;
+  color: white;
+}
+#text2 .minibox {
+  background-color: #729c78;
+  width: 300px;
+  height: 190px;
+  margin: 20px;
+  padding: 75px 100px;
+}
+#text2 .minibox1 {
+  background-color: #729c78;
+  width: 300px;
+  height: 190px;
+  margin: 20px;
+  padding: 75px 100px;
+  position: absolute;
+  top: 310px;
+  right: 972px;
 }/*# sourceMappingURL=style.css.map */
