@@ -16,7 +16,7 @@ a:hover {
   font-size: 22px;
 }
 #box .box .minibox {
-  background-color: #2b67b6;
+  background-color: #4f81a0;
   width: 200px;
   height: 200px;
   margin: 10px;
@@ -27,7 +27,7 @@ a:hover {
 #box .box .minibox .minibox1 {
   width: 100px;
   height: 100px;
-  background-color: #304f8a;
+  background-color: #32577a;
   transition: 2s;
 }
 #box .box .minibox .minibox1:hover {
@@ -39,23 +39,38 @@ a:hover {
   font-size: 24px;
   color: white;
 }
-#demo .minibox {
-  width: 220px;
-  height: 120px;
-  background-color: #7d5083;
-  margin: 90px;
-  border-radius: 6px;
-  padding: 5px;
+#demo .box {
+  display: flex;
+  justify-content: space-around;
 }
-#demo .minibox:hover .minibox1 {
-  width: 210px;
-  height: 110px;
-  background-color: #3b2626;
-  transition: 5s;
+@media screen and (min-width: 800px) {
+  #demo .minibox {
+    width: 220px;
+    height: 120px;
+    background-color: #856277;
+    margin: 90px;
+    border-radius: 6px;
+    padding: 5px;
+  }
+  #demo:hover .minibox1 {
+    width: 210px;
+    height: 110px;
+    background-color: #635062;
+    transition: 5s;
+  }
 }
-
+@media screen and (min-width: 500px) {
+  #demo .minibox {
+    width: 60px;
+    height: 50px;
+    background-color: #856277;
+    margin: 90px;
+    border-radius: 6px;
+    padding: 5px;
+  }
+}
 #box2 .box .minibox {
-  background-color: #a06848;
+  background-color: #936c4a;
   width: 200px;
   height: 200px;
   transition: 2s;
