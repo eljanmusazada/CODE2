@@ -15,7 +15,7 @@ a:hover {
   color: white;
   font-size: 22px;
 }
-#box .box .minibox {
+#box .minibox {
   background-color: #4f81a0;
   width: 200px;
   height: 200px;
@@ -24,13 +24,13 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-#box .box .minibox .minibox1 {
+#box .miniboxred {
   width: 100px;
   height: 100px;
   background-color: #32577a;
   transition: 2s;
 }
-#box .box .minibox .minibox1:hover {
+#box .miniboxred:hover {
   width: 150px;
   height: 150px;
 }
@@ -43,21 +43,19 @@ a:hover {
   display: flex;
   justify-content: space-around;
 }
-@media screen and (min-width: 800px) {
-  #demo .minibox {
-    width: 220px;
-    height: 120px;
-    background-color: #856277;
-    margin: 90px;
-    border-radius: 6px;
-    padding: 5px;
-  }
-  #demo:hover .minibox1 {
-    width: 210px;
-    height: 110px;
-    background-color: #635062;
-    transition: 5s;
-  }
+#demo .box .minibox {
+  width: 220px;
+  height: 120px;
+  background-color: #856277;
+  margin: 90px;
+  border-radius: 6px;
+  padding: 5px;
+}
+#demo .box .minibox:hover .miniboxred {
+  width: 210px;
+  height: 110px;
+  background-color: #635062;
+  transition: 5s;
 }
 @media screen and (min-width: 500px) {
   #demo .minibox {
@@ -70,7 +68,7 @@ a:hover {
   }
 }
 
-#box2 .box .minibox {
+#boxtwo .minibox {
   background-color: #936c4a;
   width: 200px;
   height: 200px;
@@ -78,10 +76,10 @@ a:hover {
   padding: 75px;
   margin: 0 91px;
 }
-#box2 .box .minibox:hover {
+#boxtwo .minibox:hover {
   border-radius: 100px;
 }
-#box2 .box .minibox h1 {
+#boxtwo h1 {
   font-size: 30px;
   color: white;
   font-weight: 700;
@@ -102,7 +100,7 @@ a:hover {
   margin: 20px;
   padding: 75px 100px;
 }
-#text .minibox1 {
+#text .miniboxtwo {
   background-color: #375680;
   width: 300px;
   height: 190px;
@@ -113,22 +111,22 @@ a:hover {
   right: 972px;
 }
 
-#text2 {
+#texttwo {
   padding: 100px 0;
   position: relative;
 }
-#text2 h1 {
+#texttwo h1 {
   font-size: 40px;
   color: white;
 }
-#text2 .minibox {
+#texttwo .minibox {
   background-color: #729c78;
   width: 300px;
   height: 190px;
   margin: 20px;
   padding: 75px 100px;
 }
-#text2 .minibox1 {
+#texttwo .miniboxtwo {
   background-color: #729c78;
   width: 300px;
   height: 190px;
